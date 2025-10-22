@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ro">
-</head>
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vectron Robotics - Inovație în robotică</title>
-  <meta name="description" content="Vectron Robotics dezvoltă roboți inteligenți și soluții automatizate pentru viitor.">
+  <title>Vectron Robotics #17873
+  </title>
+  <link rel="icon" type="image/png" href="assets/logovectron.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -116,49 +116,73 @@
         </div>
       </div>
     </section>
-    <section id="projects">
-      <h2>Proiecte / Robot</h2>
-      <p>Prezentarea robotului și a proiectelor la care am lucrat.</p>
-    </section>
-    
     <section id="robots-showcase">
-      <h2>Robots Showcase</h2>
-      <p>Evoluția robotului nostru prin sezoanele FTC</p>
-      
+      <h2 class="section-title">Roboții noștri</h2>
+    
       <div class="robots-grid">
         <div class="robot-card">
           <div class="robot-image">
-            <img src="assets/logovectron.png" alt="Robot Sezon 2023-2024" />
+            <img src="assets/robot-2026.jpg" alt="Reveal 2026" />
           </div>
           <div class="robot-info">
-            <h3>Sezon 2024-2025</h3>
-            <p>Robotul nostru pentru competiția FTC</p>
-            <div class="robot-buttons">
-              <button class="view-gallery-btn" onclick="openGallery('gallery-2024')">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-                Galerie Foto
-              </button>
-            </div>
+            <h3>Robot reveal soon....</h3>
+            <p>DECODE</p>
           </div>
         </div>
-        
+    
         <div class="robot-card">
           <div class="robot-image">
-            <img src="assets/logovectron.png" alt="Robot Sezon 2022-2023" />
+            <img src="assets/robot-2025.jpg" alt="Robot 2025" />
           </div>
           <div class="robot-info">
-            <h3>Sezon 2023-2024</h3>
-            <p>Primul robot al echipei Vectron Robotics</p>
-            <div class="robot-buttons">
-              <button class="view-gallery-btn" onclick="openGallery('gallery-2023')">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-                Galerie Foto
-              </button>
-            </div>
+            <h3>Spongebob</h3>
+            <p>INTO THE DEEP</p>
+          </div>
+        </div>
+    
+        <div class="robot-card">
+          <div class="robot-image">
+            <img src="assets/robot-2024.jpg" alt="Robot 2024" />
+          </div>
+          <div class="robot-info">
+            <h3>Dorel</h3>
+            <p>CENTERSTAGE</p>
+          </div>
+        </div>
+    
+        <div class="robot-card">
+          <div class="robot-image">
+            <img src="assets/robot-2023.jpg" alt="Robot 2023" />
+          </div>
+          <div class="robot-info">
+            <h3>NOX</h3>
+            <p>POWERPLAY</p>
+          </div>
+        </div>
+    
+        <div class="robot-card">
+          <div class="robot-image">
+            <img src="assets/robot-2021.jpg" alt="Robot 2022" />
+          </div>
+          <div class="robot-info">
+            <h3>Starlightt</h3>
+            <p>FREIGHT FRENZY</p>
+          </div>
+        </div>
+    
+        <div class="robot-card">
+          <div class="robot-image">
+            <img src="assets/robot-2022.jpg" alt="Robot 2021" />
+          </div>
+          <div class="robot-info">
+            <h3>TheBeast
+            </h3>
+            <p>ULTIMATE GOAL</p>
           </div>
         </div>
       </div>
     </section>
+    
     
     <section id="gallery">
       <h2>Galerie</h2>
@@ -319,7 +343,6 @@
       </div>
     </section>
     
-    <!-- Modal pentru galerie de imagini -->
     <div id="gallery-modal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
@@ -328,7 +351,6 @@
         </div>
         <div class="modal-body">
           <div id="gallery-container">
-            <!-- Galeria pentru sezonul 2023-2024 -->
             <div id="gallery-2024" class="gallery-grid" style="display: none;">
               <div class="gallery-item">
                 <img src="assets/robot-2024-1.jpg" alt="Robot 2024 - Vedere frontală" onclick="openLightbox(this.src, 'Vedere frontală')" />
@@ -348,7 +370,6 @@
               </div>
             </div>
             
-            <!-- Galeria pentru sezonul 2022-2023 -->
             <div id="gallery-2023" class="gallery-grid" style="display: none;">
               <div class="gallery-item">
                 <img src="assets/robot-2023-1.jpg" alt="Robot 2023 - Vedere frontală" onclick="openLightbox(this.src, 'Vedere frontală')" />
@@ -372,7 +393,6 @@
       </div>
     </div>
     
-    <!-- Lightbox pentru imagini mari -->
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
       <div class="lightbox-content">
         <img id="lightbox-img" src="" alt="" />
@@ -383,9 +403,7 @@
     <section id="sponsors">
       <h2>Sponsori</h2>
       <div class="sponsor-list">
-        <!-- Exemplu logo sponsor -->
         <div class="sponsor-logo">Logo Sponsor</div>
-        <!-- Adaugă mai mulți sponsori aici -->
       </div>
     </section>
     <section id="contact">
@@ -418,29 +436,23 @@
   </footer>
 
   <script>
-// Închide meniul când se apasă pe un link (pe mobil)
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', () => {
     document.body.classList.remove('menu-open');
   });
 });
 
-// Variabile pentru carusel
 let currentSlideIndex = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const dots = document.querySelectorAll('.dot');
 
-// Funcții pentru carusel
 function showSlide(n) {
-  // Ascunde toate slide-urile
   slides.forEach(slide => slide.classList.remove('active'));
   dots.forEach(dot => dot.classList.remove('active'));
   
-  // Calculează indexul corect
   if (n >= slides.length) currentSlideIndex = 0;
   if (n < 0) currentSlideIndex = slides.length - 1;
   
-  // Afișează slide-ul curent
   slides[currentSlideIndex].classList.add('active');
   dots[currentSlideIndex].classList.add('active');
 }
@@ -455,12 +467,10 @@ function currentSlide(n) {
   showSlide(currentSlideIndex);
 }
 
-// Inițializează caruselul
 document.addEventListener('DOMContentLoaded', function() {
   showSlide(0);
 });
 
-// Funcții pentru galerie de imagini
 function openGallery(galleryId) {
   const gallery = document.getElementById(galleryId);
   document.getElementById('gallery-modal').style.display = 'block';
@@ -475,7 +485,6 @@ function closeGallery() {
   document.getElementById('gallery-modal').style.display = 'none';
   document.body.style.overflow = 'auto';
   
-  // Ascunde toate galeriile
   document.querySelectorAll('.gallery-grid').forEach(gallery => {
     gallery.style.display = 'none';
   });
@@ -491,7 +500,6 @@ function closeLightbox() {
   document.getElementById('lightbox').style.display = 'none';
 }
 
-// Închide modal-ul când se apasă în afara lui
 window.onclick = function(event) {
   const galleryModal = document.getElementById('gallery-modal');
   const lightbox = document.getElementById('lightbox');
